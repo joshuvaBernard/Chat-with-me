@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chat with me</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- <ul id="messages"></ul>
+    <form id="form" action="">
+      <input id="input" autocomplete="off" /><button>Send</button>
+    </form>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./chat.js"></script> -->
+    <div class="content">
+      <div>
+        <p>Welcome to Chat App</p>
+        <form action="/room" method="POST">
+          <input
+            type="text"
+            placeholder="Enter your Name"
+            class="username"
+            name="username"
+            required
+          />
+          <input
+            type="text"
+            placeholder="Enter Room Name"
+            class="roomname"
+            name="roomname"
+            required
+          />
+          <input type="submit" value="Enter" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
